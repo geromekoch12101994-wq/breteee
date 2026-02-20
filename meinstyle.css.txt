@@ -1,0 +1,9 @@
+/* Freewar - Angreifen Link vergrößern */
+a[href*="attackmenu"] {
+    transform: scale(3.33) !important;  /* ca. 40px sichtbar */
+    display: inline-block !important;    /* nötig für scale */
+    font-weight: bold !important;        /* optional fett */
+    /* Farbe + Hintergrund optional, nur wenn sichtbar */
+    /* color: red !important; */
+    /* background-color: yellow !important; */
+}
